@@ -1,0 +1,50 @@
+.slider-width {
+    width: 88%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.img-slider {
+    position: relative;
+    display: flex;
+    max-width: 7.65rem;
+    max-height: 5rem;
+}
+
+.img-slider img {
+    transition: filter .05s;
+    margin-left: 1px;
+}
+
+.img-slider img:hover {
+    filter: brightness(50%);
+    filter: grayscale(50%);
+    overflow: none;
+}
+
+.slider-flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.slider-flex-container img {
+        max-width: 100%;
+        height: auto;
+}
+
+.left-arrow, .right-arrow {
+    transform: scale(1.2);
+    position: relative;
+}
+
+.left-arrow {
+    left: 8px;
+    /* z-index: 2; */
+}
+
+.right-arrow {
+    right: 8px;
+    /* z-index: 2; */
+}
