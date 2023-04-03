@@ -198,7 +198,7 @@ import wrf3 from '../images/will-rogers-follies/will-rogers-follies-3.jpeg'
 import wrf4 from '../images/will-rogers-follies/will-rogers-follies-4.jpeg'
 import wrf5 from '../images/will-rogers-follies/will-rogers-follies-5.jpeg'
 
-import LightingShowInfo from './LightingShowInfo'
+import ImageDisplay from './ImageDisplay'
 
 const LightingPage = () => {
     const cpImgs = [cp1, cp2, cp3, cp4, cp5, cp6, cp7, cp8, cp9, cp10]
@@ -221,21 +221,21 @@ const LightingPage = () => {
         //^Page container
         <div className="lightingPageContainer">
             <h1>Console Photos</h1>
-            <LightingShowInfo img={cp1} others={cpImgs}/>
-            <LightingShowInfo img={ok1} title='Oklahoma' company='Brian Clowdus Experiences' ld='Alan Kirkland' prog='Kaleb Lindevaldsen' cred='Nicholas Clark' link='' others={okImgs}/>
-            <LightingShowInfo img={cfy1} title='Crazy For You' company='Liberty University Theatre Department' ld='Mark Howieson' prog='Kaleb Lindevaldsen' cred='Tyson Long' link='' others={cfyImgs}/>
-            <LightingShowInfo img={cc1} title='Christmas Carol' company='Alluvion Stage Company' ld='Mark Howieson' prog='Kaleb Lindevaldsen' cred='Tyson Long' link='' others={ccImgs}/>
-            <LightingShowInfo img={sc1} title='Sonic-Con' company='Liberty University Theatre Department' ld='Zane Cooper' prog='Kaleb Lindevaldsen' cred='Tyson Long' link='' others={scImgs}/>
-            <LightingShowInfo img={tdc1} title='The Drowsy Chaperone' company='Liberty University Theatre Department' ld='Mark Howieson' prog='Kaleb Lindevaldsen' cred='Tyson Long' link='' others={tdcImgs}/>
-            <LightingShowInfo img={ot1} title='Our Town' company='Liberty University Theatre Department' ld='Barry Gawinski' prog='Kaleb Lindevaldsen' cred='Tyson Long' link='' others={otImgs}/>
-            <LightingShowInfo img={par1} title='Parade' company='Alluvion Stage Company' ld='Mark Howieson' prog='Kaleb Lindevaldsen' cred='Tyson Long' link='' others={parImgs}/>
-            <LightingShowInfo img={jttw1} title='Joy To The World' company='Brooklyn Tabernacle' ld='Barry Gawinski' prog='Kaleb Lindevaldsen' cred='Brooklyn Tabernacle' link='' others={jttwImgs}/>
-            <LightingShowInfo img={bb1} title='Bedford Boys' company='Liberty University Theatre Department' ld='Barry Gawinski' prog='Kaleb Lindevaldsen' cred='Tyson Long & Jenna Gregory' link='' others={bbImgs}/>
-            <LightingShowInfo img={bs1} title='Bright Star' company='Alluvion Stage Company' ld='Mark Howieson' prog='Kaleb Lindevaldsen' cred='Tyson Long' link='' others={bsImgs}/>
-            <LightingShowInfo img={mm1} title='Music Man' company='Porthouse Theatre Company' ld='Jason Potts' prog='Kaleb Lindevaldsen' cred='Bob Christy' link='' others={mmImgs}/>
-            <LightingShowInfo img={tin1} title='Tintypes' company='Porthouse Theatre Company' ld='Jakyung Seo' prog='Kaleb Lindevaldsen' cred='Bob Christy' link='' others={tinImgs}/>
-            <LightingShowInfo img={lama1} title='Man of La Mancha' company='Porthouse Theatre Company' ld='Cynthia Stillings' prog='Kaleb Lindevaldsen' cred='Andrea Hallgren' link='' others={lamaImgs}/>
-            <LightingShowInfo img={wrf1} title='The Will Rogers Follies (Stairs)' company='Alluvion Stage Company' ld='Nicole Campbell' prog='Kaleb Lindevaldsen' cred='Kaleb Lindevaldsen' link=''others={wrfImgs}/>
+            <ImageDisplay img={cp1} others={cpImgs}/>
+            <ImageDisplay img={ok1} title='Oklahoma' company='Brian Clowdus Experiences' ld='Alan Kirkland' prog='Kaleb Lindevaldsen' cred='Nicholas Clark' link='' others={okImgs}/>
+            <ImageDisplay img={cfy1} title='Crazy For You' company='Liberty University Theatre Department' ld='Mark Howieson' prog='Kaleb Lindevaldsen' cred='Tyson Long' link='' others={cfyImgs}/>
+            <ImageDisplay img={cc1} title='Christmas Carol' company='Alluvion Stage Company' ld='Mark Howieson' prog='Kaleb Lindevaldsen' cred='Tyson Long' link='' others={ccImgs}/>
+            <ImageDisplay img={sc1} title='Sonic-Con' company='Liberty University Theatre Department' ld='Zane Cooper' prog='Kaleb Lindevaldsen' cred='Tyson Long' link='' others={scImgs}/>
+            <ImageDisplay img={tdc1} title='The Drowsy Chaperone' company='Liberty University Theatre Department' ld='Mark Howieson' prog='Kaleb Lindevaldsen' cred='Tyson Long' link='' others={tdcImgs}/>
+            <ImageDisplay img={ot1} title='Our Town' company='Liberty University Theatre Department' ld='Barry Gawinski' prog='Kaleb Lindevaldsen' cred='Tyson Long' link='' others={otImgs}/>
+            <ImageDisplay img={par1} title='Parade' company='Alluvion Stage Company' ld='Mark Howieson' prog='Kaleb Lindevaldsen' cred='Tyson Long' link='' others={parImgs}/>
+            <ImageDisplay img={jttw1} title='Joy To The World' company='Brooklyn Tabernacle' ld='Barry Gawinski' prog='Kaleb Lindevaldsen' cred='Brooklyn Tabernacle' link='' others={jttwImgs}/>
+            <ImageDisplay img={bb1} title='Bedford Boys' company='Liberty University Theatre Department' ld='Barry Gawinski' prog='Kaleb Lindevaldsen' cred='Tyson Long & Jenna Gregory' link='' others={bbImgs}/>
+            <ImageDisplay img={bs1} title='Bright Star' company='Alluvion Stage Company' ld='Mark Howieson' prog='Kaleb Lindevaldsen' cred='Tyson Long' link='' others={bsImgs}/>
+            <ImageDisplay img={mm1} title='Music Man' company='Porthouse Theatre Company' ld='Jason Potts' prog='Kaleb Lindevaldsen' cred='Bob Christy' link='' others={mmImgs}/>
+            <ImageDisplay img={tin1} title='Tintypes' company='Porthouse Theatre Company' ld='Jakyung Seo' prog='Kaleb Lindevaldsen' cred='Bob Christy' link='' others={tinImgs}/>
+            <ImageDisplay img={lama1} title='Man of La Mancha' company='Porthouse Theatre Company' ld='Cynthia Stillings' prog='Kaleb Lindevaldsen' cred='Andrea Hallgren' link='' others={lamaImgs}/>
+            <ImageDisplay img={wrf1} title='The Will Rogers Follies (Stairs)' company='Alluvion Stage Company' ld='Nicole Campbell' prog='Kaleb Lindevaldsen' cred='Kaleb Lindevaldsen' link=''others={wrfImgs}/>
         </div>
     )
 }

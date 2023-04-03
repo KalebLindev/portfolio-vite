@@ -1,6 +1,6 @@
 import ImgSlider from "./ImgSlider"
 
-const LightingShowInfo = ({img, title, company, ld, prog, cred, link, others}) => {
+const ImageDisplay = ({img, title, company, ld, prog, cred, link, others}) => {
     const length = others ? others.length : null
     return (
         <div className="lighting-show-info">
@@ -22,4 +22,4 @@ const LightingShowInfo = ({img, title, company, ld, prog, cred, link, others}) =
     )
 }
 
-export default LightingShowInfo
+export default ImageDisplay

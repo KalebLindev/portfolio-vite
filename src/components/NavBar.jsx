@@ -11,7 +11,12 @@ const NavBar = () => {
                 </li>
                 <li>
                     <Link to='/lighting'>
-                        JKLMediaBrothers
+                        Lighting
+                    </Link>
+                </li>
+                <li>
+                    <Link to='/webdev'>
+                        WebDev
                     </Link>
                 </li>
             </ul>
