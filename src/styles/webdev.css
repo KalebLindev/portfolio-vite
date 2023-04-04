@@ -13,9 +13,25 @@
     border-radius: 5%;
     text-align: center;
     margin: 2rem;
+    background-color: rgba(96, 34, 178, 0.481);
+}
+
+.webdev .project-info {
+    width: 100%;
+    margin: 1.25rem 0;
+    display: grid;
+    align-items: center;
 }
 
 .webdev img {
     width: 100%;
     border-radius: 5%;
 }
+
+.webdev iframe {
+    width: 100%;
+    /* scale: .9; */
+    /* zoom: 0.75; */
+    border: none;
+    overflow: hidden;
+}   
