@@ -9,11 +9,13 @@
 
 .webdev .project-card {
     width: 15rem;
-    border: 1px solid firebrick;
+    outline: 10px solid rgb(46, 46, 46);
+    border-radius: 5%;
     text-align: center;
     margin: 2rem;
 }
 
 .webdev img {
     width: 100%;
+    border-radius: 5%;
 }

@@ -8,9 +8,6 @@ const WebDev = () => {
                 <ProjectCard img={img1} title="NAME" text="Info on the project Info on the project Info on the project Info on the project Info on the project"/>
                 <ProjectCard img={img1} title="NAME" text="Info on the project Info on the project Info on the project Info on the project Info on the project"/>
                 <ProjectCard img={img1} title="NAME" text="Info on the project Info on the project Info on the project Info on the project Info on the project"/>
-                <ProjectCard img={img1} title="NAME" text="Info on the project Info on the project Info on the project Info on the project Info on the project"/>
-                <ProjectCard img={img1} title="NAME" text="Info on the project Info on the project Info on the project Info on the project Info on the project"/>
-                <ProjectCard img={img1} title="NAME" text="Info on the project Info on the project Info on the project Info on the project Info on the project"/>
             </div>
         </div>
     )
